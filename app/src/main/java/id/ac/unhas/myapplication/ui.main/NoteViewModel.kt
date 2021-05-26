@@ -1,8 +1,10 @@
-package id.ac.unhas.myapplication
+package id.ac.unhas.myapplication.ui.main
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
+import id.ac.unhas.myapplication.db.NoteRepository
+import id.ac.unhas.myapplication.db.Note
 
 class NoteViewModel(application: Application) : AndroidViewModel(application) {
 

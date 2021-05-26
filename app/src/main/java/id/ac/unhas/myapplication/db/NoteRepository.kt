@@ -1,7 +1,10 @@
-package id.ac.unhas.myapplication
+package id.ac.unhas.myapplication.db
 
 import android.app.Application
 import androidx.lifecycle.LiveData
+import id.ac.unhas.myapplication.db.AppDatabase
+import id.ac.unhas.myapplication.db.Note
+import id.ac.unhas.myapplication.db.NoteDao
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
